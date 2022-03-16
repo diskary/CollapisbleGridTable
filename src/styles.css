@@ -1,0 +1,54 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.column {
+  background-color: #d7d7d7d7;
+  padding: 15px;
+  border-radius: 5px 5px 0 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.row {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.row-item {
+  flex: 1 1 auto;
+}
+
+.Grid {
+  border: 1px solid #d7d7d7d7;
+  border-radius: 5px 5px 0 0;
+}
+.Grid-column {
+  background-color: #d7d7d7d7;
+  border-bottom: 1px solid;
+}
+
+.Table-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.item-row {
+  border-bottom: 1px solid #d7d7d7d7;
+}
+
+span {
+  padding: 10px;
+}
+
+.detail {
+  max-height: 400px;
+  overflow: hidden;
+  transition: max-height 1s ease;
+}
+.hidden {
+  max-height: 0px;
+}

@@ -1,0 +1,32 @@
+
+.Grid {
+  border: 1px solid #d7d7d7d7;
+  border-radius: 5px 5px 0 0;
+}
+
+.GridColumn {
+  background-color: #d7d7d7d7;
+  border-bottom: 1px solid;
+}
+
+.TableGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.ItemRow {
+  border-bottom: 1px solid #d7d7d7d7;
+}
+
+span {
+  padding: 10px;
+}
+
+.detail {
+  max-height: 400px;
+  overflow: hidden;
+  transition: max-height 1s ease;
+}
+.hidden {
+  max-height: 0px;
+}
